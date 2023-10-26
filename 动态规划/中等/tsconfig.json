@@ -99,7 +99,7 @@
     "skipLibCheck": true /* Skip type checking all .d.ts files. */
   },
   "include": [
-    "2_最长递增子序列的个数.ts"
+    "2_不相交的线.ts"
   ],
   "exclude": [
     "node_modules"
