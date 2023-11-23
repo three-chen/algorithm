@@ -99,7 +99,7 @@
     "skipLibCheck": true /* Skip type checking all .d.ts files. */
   },
   "include": [
-    "18_四数之和.ts"
+    "中等/80_删除有序数组中的重复项 II.ts"
   ],
   "exclude": [
     "node_modules"

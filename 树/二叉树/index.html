@@ -6,23 +6,65 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <!-- <script src="./2_恢复二叉搜索树.js"></script> -->
-    <style></style>
+    <style>
+        .father {
+            position: relative;
+            background-color: red;
+            width: 500px;
+            height: 500px;
+        }
+
+        /* .son {
+            position: absolute;
+            background-color: blue;
+            width: 100px;
+            height: 100px;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+        } */
+
+        .son {
+            position: absolute;
+            background-color: blue;
+            width: 100px;
+            height: 100px;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+    </style>
 </head>
 
 <body>
-    <ul style="clear: both;">
+    <!-- <ul style="clear: both;">
         <li style="float: left">1</li>
-    </ul>
+    </ul> -->
+    <div class="father">
+        <div class="son"></div>
+    </div>
+    <div style="font-size: 0;">
+        <span style="font-size: 1rem;">浙江</span>
+        <span style="font-size: 1rem;">杭州</span>
+    </div>
     <!-- <ul style="float: left;">
         <li style="float:left;">1</li>
     </ul> -->
-    <script>
-        var a = 1;
-        var fn = function () {
-            b = 2;
+    <script type="module">
+        // var a = 1;
+        // var fn = function () {
+        //     b = 2;
+        // }
+        // fn()
+        // console.log(window.a, window.b);
+        async function add(a, b) {
+            return a + b
         }
-        fn()
-        console.log(window.a, window.b);
+        console.log(add(1, 2));
+        let d = await add(1, 2)
+        console.log(d);
     </script>
 </body>
 

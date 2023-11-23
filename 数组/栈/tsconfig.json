@@ -99,7 +99,7 @@
     "skipLibCheck": true /* Skip type checking all .d.ts files. */
   },
   "include": [
-    "152_乘积最大子数组.ts"
+    "150_逆波兰表达式求值.ts"
   ],
   "exclude": [
     "node_modules"

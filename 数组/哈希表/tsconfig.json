@@ -99,7 +99,7 @@
     "skipLibCheck": true /* Skip type checking all .d.ts files. */
   },
   "include": [
-    "152_乘积最大子数组.ts"
+    "中等/128_最长连续序列.ts"
   ],
   "exclude": [
     "node_modules"

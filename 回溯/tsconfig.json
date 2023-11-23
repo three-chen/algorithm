@@ -99,7 +99,7 @@
     "skipLibCheck": true /* Skip type checking all .d.ts files. */
   },
   "include": [
-    "152_乘积最大子数组.ts"
+    "中等/130_被围绕的区域.ts"
   ],
   "exclude": [
     "node_modules"

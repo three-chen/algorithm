@@ -1,14 +1,13 @@
 "use strict";
 function fourSum(nums, target) {
     nums.sort((a, b) => a - b);
-    console.log(nums);
     const l = nums.length;
     if (l < 4) {
         return [];
     }
     const res = [];
     for (let i = 0; i < l - 3; i++) {
-        if (i > 0 && nums[i] === nums[i - 1] && nums[i] === nums[i + 1]) {
+        if (i > 0 && nums[i] === nums[i - 1]) {
             continue;
         }
         for (let j = i + 1; j < l - 2; j++) {
