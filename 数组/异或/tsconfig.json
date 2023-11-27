@@ -99,7 +99,7 @@
     "skipLibCheck": true /* Skip type checking all .d.ts files. */
   },
   "include": [
-    "136_只出现一次的数字.ts"
+    "中等/260_只出现一次的数字 III.ts"
   ],
   "exclude": [
     "node_modules"

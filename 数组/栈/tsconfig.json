@@ -99,7 +99,7 @@
     "skipLibCheck": true /* Skip type checking all .d.ts files. */
   },
   "include": [
-    "150_逆波兰表达式求值.ts"
+    "中等/189_轮转数组.ts"
   ],
   "exclude": [
     "node_modules"

@@ -31,13 +31,19 @@
         .hidden {
             display: none;
         }
+
+        .myborder {
+            width: 100px;
+            height: 100px;
+            background-color: skyblue;
+        }
     </style>
 </head>
 
 <body>
 
     <!-- 加载指示器的容器 -->
-    <div id="loader" class="hidden"></div>
+    <div id="loader"></div>
 
     <!-- 页面内容 -->
     <div id="content">
@@ -45,16 +51,14 @@
         <h1>Hello, World!</h1>
     </div>
 
+    <div class="myborder"></div>
     <script>
         // 当页面加载完成后，隐藏加载指示器
-        document.addEventListener("DOMContentLoaded", function () {
-            document.getElementById("loader").classList.add("hidden");
-        });
-    </script>
-    <script>
-        while (true) {
-
-        }
+        // document.addEventListener("DOMContentLoaded", function () {
+        //     document.getElementById("loader").classList.add("hidden");
+        // });
+        document.getElementById("loader").style.display = 'none'
+        console.log(document.getElementById("loader").style.display);
     </script>
 
 </body>

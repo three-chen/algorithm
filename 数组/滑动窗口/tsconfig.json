@@ -99,7 +99,7 @@
     "skipLibCheck": true /* Skip type checking all .d.ts files. */
   },
   "include": [
-    "283_移动零.ts"
+    "219_存在重复元素 II.ts"
   ],
   "exclude": [
     "node_modules"

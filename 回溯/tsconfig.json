@@ -99,7 +99,7 @@
     "skipLibCheck": true /* Skip type checking all .d.ts files. */
   },
   "include": [
-    "中等/130_被围绕的区域.ts"
+    "中等/200_岛屿数量.ts"
   ],
   "exclude": [
     "node_modules"

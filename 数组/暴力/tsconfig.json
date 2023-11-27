@@ -99,7 +99,7 @@
     "skipLibCheck": true /* Skip type checking all .d.ts files. */
   },
   "include": [
-    "中等/134_加油站.ts"
+    "简单/268_丢失的数字.ts"
   ],
   "exclude": [
     "node_modules"
