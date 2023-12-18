@@ -99,7 +99,7 @@
     "skipLibCheck": true /* Skip type checking all .d.ts files. */
   },
   "include": [
-    "中等/164_最大间距.ts"
+    "中等/347_前 K 个高频元素.ts"
   ],
   "exclude": [
     "node_modules"

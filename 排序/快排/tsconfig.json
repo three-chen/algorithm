@@ -99,7 +99,7 @@
     "skipLibCheck": true /* Skip type checking all .d.ts files. */
   },
   "include": [
-    "153_寻找旋转排序数组中的最小值.ts"
+    "中等/324_摆动排序 II.ts"
   ],
   "exclude": [
     "node_modules"

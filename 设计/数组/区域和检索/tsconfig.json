@@ -99,7 +99,7 @@
     "skipLibCheck": true /* Skip type checking all .d.ts files. */
   },
   "include": [
-    "中等/368_最大整除子集.ts"
+    "中等/307_区域和检索 - 数组可修改.ts"
   ],
   "exclude": [
     "node_modules"

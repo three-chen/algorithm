@@ -99,7 +99,7 @@
     "skipLibCheck": true /* Skip type checking all .d.ts files. */
   },
   "include": [
-    "中等/200_岛屿数量.ts"
+    "313_超级丑数.ts"
   ],
   "exclude": [
     "node_modules"

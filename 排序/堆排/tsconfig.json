@@ -99,7 +99,7 @@
     "skipLibCheck": true /* Skip type checking all .d.ts files. */
   },
   "include": [
-    "912_排序数组.ts"
+    "简单/1_堆排序.ts"
   ],
   "exclude": [
     "node_modules"

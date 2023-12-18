@@ -99,7 +99,7 @@
     "skipLibCheck": true /* Skip type checking all .d.ts files. */
   },
   "include": [
-    "简单/268_丢失的数字.ts"
+    "中等/100151_使数组成为等数数组的最小代价.ts"
   ],
   "exclude": [
     "node_modules"
