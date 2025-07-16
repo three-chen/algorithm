@@ -10,17 +10,30 @@ class TreeNode {
   }
 }
 
+// function isBalanced(root: TreeNode | null): boolean {
+//   if (root === null) {
+//     return true
+//   } else {
+//     return Math.abs(height(root.left) - height(root.right)) < 2 && isBalanced(root.left) && isBalanced(root.right)
+//   }
+// }
+
+// function height(root: TreeNode | null): number {
+//   if (root === null) {
+//     return 0
+//   }
+//   return Math.max(height(root.left), height(root.right)) + 1
+// }
 function isBalanced(root: TreeNode | null): boolean {
-  if (root === null) {
-    return true
-  } else {
-    return Math.abs(height(root.left) - height(root.right)) < 2 && isBalanced(root.left) && isBalanced(root.right)
-  }
+  return height(root) >= 0
 }
 
 function height(root: TreeNode | null): number {
   if (root === null) {
     return 0
   }
-  return Math.max(height(root.left), height(root.right)) + 1
+  const leftHeight = height(root.left)
+  const rightHeight = height(root.right)
+  if (Math.abs(leftHeight - rightHeight) > 1 || leftHeight === -1 || rightHeight === -1) return -1
+  return Math.max(leftHeight, rightHeight) + 1
 }

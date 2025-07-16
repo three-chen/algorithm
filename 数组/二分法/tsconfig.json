@@ -99,7 +99,7 @@
     "skipLibCheck": true /* Skip type checking all .d.ts files. */
   },
   "include": [
-    "275_H 指数 II.ts"
+    "./*.ts"
   ],
   "exclude": [
     "node_modules"

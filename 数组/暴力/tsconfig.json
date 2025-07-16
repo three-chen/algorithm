@@ -99,7 +99,7 @@
     "skipLibCheck": true /* Skip type checking all .d.ts files. */
   },
   "include": [
-    "中等/100151_使数组成为等数数组的最小代价.ts"
+    "简单/100171_统计移除递增子数组的数目 I.ts"
   ],
   "exclude": [
     "node_modules"

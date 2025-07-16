@@ -99,7 +99,7 @@
     "skipLibCheck": true /* Skip type checking all .d.ts files. */
   },
   "include": [
-    "简单/283_移动零.ts"
+    "简单/125_验证回文串.ts"
   ],
   "exclude": [
     "node_modules"

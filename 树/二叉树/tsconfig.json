@@ -99,7 +99,7 @@
     "skipLibCheck": true /* Skip type checking all .d.ts files. */
   },
   "include": [
-    "中等/7_二叉树的层序遍历 II.ts"
+    "中等/230_二叉搜索树中第K小的元素.ts"
   ],
   "exclude": [
     "node_modules"
