@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      function permuteUnique(nums) {
+        const res = [];
+        backTrace(nums, nums, [], res);
+        return res;
+      }
+
+      function backTrace(nums, curNums, cur, res) {
+        const l = curNums.length;
+        if (l < 1) {
+          res.push(Array.from(cur));
+          return;
+        }
+        for (let i = 0; i < curNums.length; i++) {
+          if (i > 0 && nums[i] === nums[i - 1]) {
+            continue;
+          }
+          const element = curNums[i];
+          cur.push(element);
+          const newNums = Array.from(curNums);
+          newNums.splice(i, 1);
+          backTrace(nums, newNums, cur, res);
+          cur.pop();
+        }
+      }
+      permuteUnique([1, 1, 2]);
+    </script>
+  </body>
+</html>

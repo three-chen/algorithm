@@ -10,26 +10,15 @@ class TreeNode {
   }
 }
 
-function minDepth(root: TreeNode | null): number {
-  if (!root) {
-    return 0;
-  }
-  let depth = 0;
+function countNodes(root: TreeNode | null): number {
+  if (!root) return 0;
+  let ans = 0;
   const stack = [root];
   while (stack.length) {
-    depth++;
-    const levelStack = stack.splice(0);
-    for (const node of levelStack) {
-      if (!node.left && !node.right) {
-        return depth;
-      }
-      if (node.left) {
-        stack.push(node.left);
-      }
-      if (node.right) {
-        stack.push(node.right);
-      }
-    }
+    ans++;
+    const node = stack.shift() as TreeNode;
+    if (node.left) stack.push(node.left);
+    if (node.right) stack.push(node.right);
   }
-  return depth;
+  return ans;
 }
